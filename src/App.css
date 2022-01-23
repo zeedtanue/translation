@@ -41,7 +41,10 @@ body {
   padding-right: 10px;
 
 }
-
+.header label {
+  color: aliceblue;
+  margin: 8px;
+}
 .header button {
   width: 70px;
   height: 40px;
@@ -54,5 +57,18 @@ body {
 }
 .translation {
   flex: 70%;
+  display: flex;
+  justify-content: center;
   width: 100%;
+  background-color: lightyellow;
+}
+
+.translation .translationBox {
+  display: flex;
+  min-height: 10px;
+  width: 70vw;
+  margin: 10px;
+  border-radius: 8px;
+  border-color: black;
+  background-color: white;
 }
